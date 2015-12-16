@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_splash_point_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_splash_point_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/point_normal" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/point_normal" />
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/point_normal" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_point_selected"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/point_selected" />
+    </RelativeLayout>
+	
+    <Button 
+        android:id="@+id/btn_splash_explore"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/color_btn_splash_explore"
+        android:background="@drawable/bg_btn_splash_explore"
+        android:text="@string/txt_btn_splash_explore"
+        />
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsClient</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="txt_btn_splash_explore">开始体验</string>
+	<string name="txt_rbtn_home">首页</string>
+	<string name="txt_rbtn_newscenter">新闻中心</string>
+	<string name="txt_rbtn_service">智慧服务</string>
+	<string name="txt_rbtn_gov">政务</string>
+	<string name="txt_rbtn_setting">设置</string>
+	<string name="txt_title">标题</string>
+</resources>

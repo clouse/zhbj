@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.chenhao.newsclient.view.NoScrollViewPager
+        android:id="@+id/vp_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center_vertical" >
+
+        <RadioButton
+            android:id="@+id/rbtn_home"
+            style="@style/tab_main"
+            android:drawableTop="@drawable/bg_rbtn_home_main"
+            android:text="@string/txt_rbtn_home" />
+        <RadioButton
+            android:id="@+id/rbtn_newscenter"
+            style="@style/tab_main"
+            android:drawableTop="@drawable/bg_rbtn_newscenter_main"
+            android:text="@string/txt_rbtn_newscenter" />
+        <RadioButton
+            android:id="@+id/rbtn_service"
+            style="@style/tab_main"
+            android:drawableTop="@drawable/bg_rbtn_service_main"
+            android:text="@string/txt_rbtn_service" />
+        <RadioButton
+            android:id="@+id/rbtn_gov"
+            style="@style/tab_main"
+            android:drawableTop="@drawable/bg_rbtn_gov_main"
+            android:text="@string/txt_rbtn_gov" />
+        <RadioButton
+            android:id="@+id/rbtn_setting"
+            style="@style/tab_main"
+            android:drawableTop="@drawable/bg_rbtn_setting_main"
+            android:text="@string/txt_rbtn_setting" />
+    </RadioGroup>
+
+</LinearLayout>
